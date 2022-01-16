@@ -25,5 +25,5 @@ function getStats() {
     .catch(function () {
       console.log("error");
     });
-  setTimeout(getStats, 21600000);
+  setTimeout(getStats, 43200000);
 }
